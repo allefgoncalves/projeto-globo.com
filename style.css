@@ -1,0 +1,57 @@
+.cabecario{
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6F7;
+}
+
+.line{
+    background-color: black;
+    height: 1px;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #F5F6F7;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.container{
+
+}
+
+.menu a:nth-child(1) {
+    color: red;
+  }
+.menu a:nth-child(2) {
+    color:blue;
+  }
+.menu a:nth-child(3) {
+    color: #0c74c3;
+  }
+.menu a:nth-child(4) {
+    color:green;
+  }
+.menu a:nth-child(5) {
+    color: rgb(255, 115, 0);
+  }
+.menu a:nth-child(6) {
+    color: rgb(255, 38, 0);
+  }
+.menu a:nth-child(7) {
+    color:pink;
+  }
+.menu a:nth-child(8) {
+    color: rgb(255, 115, 0);
+  }
+.menu a:nth-child(9) {
+    color: brown;
+  }
+.menu a:nth-child(10) {
+    color: purple;
+  }
+  
