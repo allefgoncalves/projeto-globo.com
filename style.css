@@ -1,13 +1,23 @@
+body {
+    flex-direction: column;
+    font-family: "Encode Sans", sans-serif;
+  }
+
 .cabecario{
     height: 80px;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #F5F6F7;
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    width: 40px;
 }
 
 .line{
-    background-color: black;
+    background-color: #F5F6F7;
     height: 1px;
 }
 
@@ -15,13 +25,22 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    background-color: #F5F6F7;
     margin: 0 auto;
     width: 1250px;
+    height: 40px;
+    background-color:cadetblue;
 }
 
-.container{
+.menu a{
+    font-weight: 700;
+    font-size: 19px;
+    white-space: nowrap;
+  }
 
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    background-color: blue;
 }
 
 .menu a:nth-child(1) {
@@ -55,3 +74,89 @@
     color: purple;
   }
   
+  .container{
+    width: 1250;
+    height:0 auto;
+    justify-content: center;
+    display: flex;
+  }
+
+  .main{
+    width: 624px;
+    height: auto;
+  }
+
+  .line-vert{
+    width: 1px;
+    background-color:#EBEDEF;
+  }
+
+  .Mprincipal{
+    font-weight: 700;
+    font-size: 52px;
+    color: #C4160C;
+    margin-bottom: 26px;
+  }
+
+  .Msecundaria{
+    font-size: 18px;
+    color: #303134;
+    margin: 3px;
+  }
+
+  .QuadroNoticias{
+    margin-top: 25px;
+    background-color:aqua;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .NoticiaP{
+    width: 193px;
+    background-color: blueviolet;
+  }
+
+  .noticiaP img {
+    width: 193px;
+    border-radius: 10px;
+  }
+
+  .noticiasS{
+
+  }
+  
+  .texto-noticia{
+    width: 193px;
+    background-color: blueviolet;
+
+  }
+
+  .texto-noticia P{
+    font-family: Encode Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .color-red{
+    color:red;
+  }
+
+
+
+  .texto-noticia h2{
+    font-family: Encode Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    text-align: left;
+  }
+
+  .coluna{
+    width: 240px;
+    height: 50px;
+    background-color: pink;
+  }
